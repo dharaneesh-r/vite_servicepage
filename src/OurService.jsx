@@ -1,0 +1,17 @@
+import React from 'react'
+import './service.css'
+
+function OurService() {
+
+    const ourService = "Our Services"
+    const ourServiceContent = `At Dotworld, our suite services is designed to propel your business into the forefront of technological advancement.  With a commitment to excellence and a passion for innovation, we offer a diverse range of cutting-edge services that cater to the evolving needs of the digital landscape`;
+
+  return (
+    <div className='ourservice'>
+        <div className='ourservice-title'>{ourService}</div>
+        <div className='ourservice-content'>{ourServiceContent}</div>
+    </div>
+  )
+}
+
+export default OurService
