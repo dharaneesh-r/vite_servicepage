@@ -9,7 +9,9 @@ function WorkHightlights() {
   return (
     <div className='work-highlights-marquee'>
         {jsonData.map((data,index) => (
-            <Marquee className='work-highlights-marquee-data' key={index}>{data.content}</Marquee>
+            <Marquee className='work-highlights-marquee-data' key={index}>
+              <li style={{paddingLeft : '30px',fontSize : '30px'}}>{data.content}</li>
+            </Marquee>
         ))}
     </div>
   )

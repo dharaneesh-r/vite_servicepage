@@ -13,7 +13,7 @@ function Footer() {
           })}
         </Marquee>
         <br />
-        <div style={{paddingBottom : '20px'}}></div>
+        <div style={{paddingBottom : '30px'}}></div>
       </div>
     );
 }

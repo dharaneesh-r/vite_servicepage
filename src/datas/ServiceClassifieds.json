@@ -1,6 +1,7 @@
 [
         {
             "title" : "AUGUMENTED & VIRTUAL REALITY",
+            "image" : "./src/assets/ar_vr.png",
             "content" : "Step into the next dimension with our AR/VR solutions.  Elevate user experience, enhance training programs, and unlock new realms of interaction through immersive technologies",
             "features_1" : "Immersive AR/VR Applications",
             "features_2" : "Markerless AR Apps",
@@ -10,6 +11,7 @@
         },
         {
             "title" : "ARTIFICIAL INTELLIGENCE & MACHINE LEARNING",
+            "image" : "./src/assets/ai_ml.png",
             "content" : "Unleash the power of intelligent automation with uor AI & ML services.  From predictive analytics to smart decision-making, we empower your business with the latest in artificial intelligence",
             "features_1" : "Predictive Analytics",
             "features_2" : "Intelligent Automation Solution",
@@ -19,6 +21,7 @@
         },
         {
             "title" : "WEB & APP DEVELOPMENT",
+            "image" : "./src/assets/web_app.png",
             "content" : "Redefine efficiency and precision with our robotics solutions.  From autonomous systems to collaborative robots, we engineer automation that trnasformss industries.",
             "features_1" : "Autonomous Robotic Systems",
             "features_2" : "Robotics Integration Services",
@@ -28,6 +31,7 @@
         },
         {
             "title" : "INTERNET OF THINGS",
+            "image" : "./src/assets/iot.png",
             "content" : "Connect, control, and conquer with our loT services. Transform your business operation through the seamless integration of smart devices and data-driven insights",
             "features_1" : "loT Strategy and Consulting",
             "features_2" : "loT Security Solutions",
@@ -37,6 +41,7 @@
         },
         {
             "title" : "ROBOT OPERATING SYSTEM",
+            "image" : "./src/assets/robot.png",
             "content" : "Crafing digital experience that resonate. Our Web & App Development services marry innovation with functionality, creating platforms that captivate and deliver result.",
             "features_1" : "Native and Cross-Platform App Development",
             "features_2" : "Backend Development and Integration",
