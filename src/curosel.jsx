@@ -17,10 +17,10 @@ function UncontrolledExample() {
       <div className='carousel-div'><img src='https://framerusercontent.com/images/pg8PMLSLcnJQo0pvQ0wePSI9PI8.jpg?scale-down-to=2048' className='carousel-css'/></div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='carousel-div'><img src='./src/assets/web_app.png' className='carousel-css'/></div>
+      <div className='carousel-div'><img src='./web_app.png' className='carousel-css'/></div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='carousel-div'><img src='./src/assets/ai_ml.png' className='carousel-css'/></div>
+      <div className='carousel-div'><img src='./ai_ml.png' className='carousel-css'/></div>
       </Carousel.Item>
     </Carousel>
   );

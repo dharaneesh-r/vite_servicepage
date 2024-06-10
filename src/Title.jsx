@@ -15,11 +15,6 @@ useEffect(() => {
     opacity : 1,
     x : 0,
     duration : 1,
-    scrollTrigger : {
-      trigger : '.title',
-      start : 'center center',
-      toggleActions : 'restart none none none'
-    },
     })
 },[])
 useEffect(() => {
@@ -30,11 +25,11 @@ useEffect(() => {
     opacity : 1,
     x : 0,
     duration : 1,
-    scrollTrigger : {
-      trigger : '.title-line',
-      start : 'center center',
-      toggleActions : 'restart none none none'
-    },
+    // scrollTrigger : {
+    //   trigger : '.title-line',
+    //   start : 'center center',
+    //   toggleActions : 'restart none none none'
+    // },
     })
 },[])
 
