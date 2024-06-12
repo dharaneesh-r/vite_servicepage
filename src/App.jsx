@@ -10,7 +10,7 @@ import Curosel from './curosel';
 function App() {
   return (
     <div>
-      <div style={{ padding: "20px",justifyContent : 'center',alignItems : 'center',placeContent : 'center',height : '100vh'}}>
+      <div className='app-container'>
         <Title />
         <OurService />
       </div>

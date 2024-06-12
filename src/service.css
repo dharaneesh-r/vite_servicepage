@@ -157,6 +157,14 @@
     padding: 20px 20px;
     border : 1px solid white;
 }
+.marquee-heading{
+    font-size: 3.5rem;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.marquee-heading:hover{
+    color: blue;
+}
 .footer-heading {
     padding: 10px 20px;
     font-size : 5rem;
@@ -202,17 +210,25 @@ li::marker{
     place-content: center;
     padding : 0px 30px;
 }
+.app-container{
+    padding: 20px;
+    justify-content : center;
+    align-items : center;
+    place-content : center;
+    height : 100vh;
+}
+
 
 @media screen and (max-width: 480px) {
-    .title-container{
-        padding: "20px";
-        justify-content : 'center';
-        align-items : 'center';
-        place-content : 'center';
-        height : '100vh'
+    .app-container{
+        padding: 20px;
+        justify-content : center;
+        align-items : center;
+        place-content : center;
+        height : 100vh;
     }
     .title-heading{
-        font-size: 15px;
+        font-size: 20px;
     }
     .ourservice{
         display: block;
@@ -238,7 +254,6 @@ li::marker{
         padding :10px 0px;
     }
     .service-classified-button{
-        gap : 10px;
         padding : 10px 10px
     }
     .service-classified-image{
@@ -248,5 +263,19 @@ li::marker{
     }
     .service-classified-title{
         padding: 10px 0px;
+    }
+    .service-buttons{
+        text-align: center;
+    }
+    .marquee-heading{
+        font-size: 2rem;
+    }
+    .carousel-css{
+        width: 100%;
+        padding: 0px;
+        border-radius: 20px;
+    }
+    .grid-container{
+        display: block;
     }
 }
