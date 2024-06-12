@@ -11,10 +11,10 @@
     font-family: Myfont;
     user-select: none;
 }
-/* .title{
-    font-size : 3rem;
-    padding : 5px;
-} */
+.title-heading{
+    font-size : 5rem;
+    font-weight : bold
+}
 .title-line{
     border: 1px solid grey;
 }
@@ -203,4 +203,50 @@ li::marker{
     padding : 0px 30px;
 }
 
-
+@media screen and (max-width: 480px) {
+    .title-container{
+        padding: "20px";
+        justify-content : 'center';
+        align-items : 'center';
+        place-content : 'center';
+        height : '100vh'
+    }
+    .title-heading{
+        font-size: 15px;
+    }
+    .ourservice{
+        display: block;
+    }
+    .ourservice-title{
+        font-size : 20px;
+    }
+    .ourservice-content{
+        font-size: 15px;
+        padding: 0;
+    }
+    .service-image{
+        width: 100%;
+    }
+    .service-classified-container{
+        display: block;
+    }
+    .service-buttons{
+        display: block;
+    }
+    .service-classified-button{
+        display: block;
+        padding :10px 0px;
+    }
+    .service-classified-button{
+        gap : 10px;
+        padding : 10px 10px
+    }
+    .service-classified-image{
+        display: block;
+        width: 100%;
+        text-align: center
+    }
+    .service-classified-title{
+        padding: 10px 0px;
+    }
+}

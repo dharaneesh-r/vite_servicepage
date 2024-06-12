@@ -6,7 +6,7 @@ import './service.css'
 function App() {
 
 useEffect(() => {
-  gsap.fromTo('.title',{
+  gsap.fromTo('.title-heading',{
     opacity : 0,
     x : 20,
   },{
@@ -30,7 +30,7 @@ useEffect(() => {
 
   return (
     <div className='title-container'>
-      <h1 className='title' style={{fontSize : '5rem',fontWeight : 'bold'}}>{title}</h1>
+      <h1 className='title-heading'>{title}</h1>
       <div className='title-line'></div>
     </div>
   )
