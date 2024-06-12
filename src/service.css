@@ -246,15 +246,16 @@ li::marker{
     .service-classified-container{
         display: block;
     }
+    .service-classified-button{
+        display: block;
+        gap: 10px;
+        padding :10px 10px;
+        text-align: center;
+    }
     .service-buttons{
-        display: block;
-    }
-    .service-classified-button{
-        display: block;
-        padding :10px 0px;
-    }
-    .service-classified-button{
-        padding : 10px 10px
+        /* display: flex; */
+        display:grid;
+        grid-template-columns: auto;
     }
     .service-classified-image{
         display: block;
@@ -263,9 +264,6 @@ li::marker{
     }
     .service-classified-title{
         padding: 10px 0px;
-    }
-    .service-buttons{
-        text-align: center;
     }
     .marquee-heading{
         font-size: 2rem;
