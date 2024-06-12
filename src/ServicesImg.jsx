@@ -16,7 +16,7 @@ function ServicesImg() {
       duration : 1,
       scrollTrigger : {
         trigger : '.service-image',
-        start : '20% bottom',
+        start : '10% bottom',
         toggleActions : 'restart none none none'
       },
     })

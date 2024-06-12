@@ -22,7 +22,7 @@ function ServiceClassifieds() {
         stagger: 1,
         scrollTrigger: {
           trigger: ".service-classified-title",
-          start: "20% bottom",
+          start: "10% bottom",
           toggleActions: "restart none none none",
         },
       }
@@ -42,7 +42,7 @@ function ServiceClassifieds() {
         stagger: 1,
         scrollTrigger: {
           trigger: ".service-classified-content",
-          start: "20% bottom",
+          start: "10% bottom",
           toggleActions: "restart none none none",
         },
       }
@@ -59,7 +59,7 @@ function ServiceClassifieds() {
       stagger : 1,
       scrollTrigger : {
         trigger : '.service-classified-image',
-        start : '20% bottom',
+        start : '10% bottom',
         toggleActions : 'restart none none reverse'
       },
     })
