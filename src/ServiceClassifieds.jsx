@@ -22,7 +22,7 @@ function ServiceClassifieds() {
         stagger: 1,
         scrollTrigger: {
           trigger: ".service-classified-title",
-          start: "center center",
+          start: "20% bottom",
           toggleActions: "restart none none none",
         },
       }

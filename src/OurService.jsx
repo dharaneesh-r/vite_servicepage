@@ -1,9 +1,7 @@
 import './service.css'
 import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect } from 'react';
 
-gsap.registerPlugin(ScrollTrigger)
 
 function OurService() {
 
@@ -14,12 +12,6 @@ useEffect(() => {
   },{
     opacity : 1,
     y : 0,
-    duration : 1,
-    scrollTrigger : {
-      trigger : '.ourservice-title',
-      start : 'center center',
-      toggleActions : 'restart none none none'
-    }
   })
 },[])
 useEffect(() => {
@@ -30,11 +22,6 @@ useEffect(() => {
     opacity : 1,
     x : 0,
     duration : 1,
-    scrollTrigger : {
-      trigger : '.ourservice-content',
-      start : 'center center',
-      toggleActions : 'restart none none none'
-    }
   })
 },[])
 
