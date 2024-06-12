@@ -42,7 +42,7 @@ function ServiceClassifieds() {
         stagger: 1,
         scrollTrigger: {
           trigger: ".service-classified-content",
-          start: "center center",
+          start: "20% bottom",
           toggleActions: "restart none none none",
         },
       }
@@ -59,7 +59,7 @@ function ServiceClassifieds() {
       stagger : 1,
       scrollTrigger : {
         trigger : '.service-classified-image',
-        start : 'center center',
+        start : '20% bottom',
         toggleActions : 'restart none none reverse'
       },
     })

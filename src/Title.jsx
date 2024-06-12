@@ -30,7 +30,7 @@ useEffect(() => {
 
   return (
     <div className='title-container'>
-      <h1 className='title' style={{fontSize : '5rem'}}>{title}</h1>
+      <h1 className='title' style={{fontSize : '5rem',fontWeight : 'bold'}}>{title}</h1>
       <div className='title-line'></div>
     </div>
   )

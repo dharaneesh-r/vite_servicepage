@@ -1,62 +1,62 @@
 export const data = [
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
     {
-        heading : "Let Talk",
+        heading : "Let's Talk",
     },
 ]
