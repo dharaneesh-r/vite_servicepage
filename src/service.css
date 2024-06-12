@@ -256,6 +256,7 @@ li::marker{
         /* display: flex; */
         display:grid;
         grid-template-columns: auto;
+        text-align: center;
     }
     .service-classified-image{
         display: block;
