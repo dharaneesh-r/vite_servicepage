@@ -261,8 +261,10 @@ li::marker{
     .service-classified-image{
         display: block;
         width: 100%;
-        text-align: center
+        height: 150px;
+        text-align: center;
     }
+
     .service-classified-title{
         padding: 10px 0px;
     }
@@ -271,10 +273,18 @@ li::marker{
     }
     .carousel-css{
         width: 100%;
-        padding: 0px;
-        border-radius: 20px;
+        height: 200px;
     }
     .grid-container{
         display: block;
     }
+    .carousel-div{
+        padding: 0px 10px;
+        /* max-height: 150px; */
+        border-radius: 20px;
+    }
+    .service-types{
+        padding-left: 0px;
+    }
+
 }

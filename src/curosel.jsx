@@ -5,7 +5,7 @@ function UncontrolledExample() {
   return (
     <Carousel>
       <Carousel.Item>
-        <div className='carousel-div'><img src='https://framerusercontent.com/images/E5ME83UIBgkDokq64RiGXCMNmE.jpg?scale-down-to=2048' className='carousel-css'/></div>
+        <div className='carousel-div'><img src='https://framerusercontent.com/images/E5ME83UIBgkDokq64RiGXCMNmE.jpg?scale-down-to=2048' className='carousel-css' /></div>
       </Carousel.Item>
       <Carousel.Item>
       <div className='carousel-div'><img src='https://framerusercontent.com/images/93GikgVNfWr2nB61Tqs6JSMUOI.jpg?scale-down-to=2048' className='carousel-css'/></div>

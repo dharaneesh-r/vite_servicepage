@@ -19,6 +19,7 @@ function App() {
         <WorkHightlights />
         <div style={{padding: '20px'}}></div>
         <Curosel />
+        {/* <div style={{padding : '100px 0px'}}></div> */}
       </div>
       <div className='footerfooter'>
         <Footer />
